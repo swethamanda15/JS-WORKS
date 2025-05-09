@@ -1,0 +1,183 @@
+.hello {
+    background-color: lightgrey;
+    cursor: pointer;
+    background-size: cover;
+    width: 400px;
+}
+.hai {
+    height: 300px;
+    width: 500px;
+    background-color: aqua;
+    color: blue;
+}
+.chiro {
+    height: 500px;
+    width: 500px;
+    background-color: lightpink;
+    color: purple;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    
+}
+.chiro:hover {
+    box-shadow: 2px 4px 4px 6px rgb(0, 183, 255);
+    }
+/* #name {
+    height: 150px;
+    width: 500px;
+    background-color: blueviolet;
+} */
+button {
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 75px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow:  2px 4px 4px 6px rgba(255, 255, 0, 1);
+    }
+#login {
+    margin: 30px;
+    padding: 50px;
+    width: 400px;
+    height:300px;
+    border: 2px solid red;
+    background-color: bisque;
+}
+#login button{
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 75px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+.url{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.birthday {
+    height: 150px;
+    width: 200px;
+    background-color: beige;
+    color: blueviolet;
+}
+.birthday:hover {
+    box-shadow:  2px 4px 4px 6px rgb(255, 0, 157);
+    }
+
+.contain {
+    margin-bottom: 10px;
+}
+
+#strength-bar {
+    width: 15.8%;
+    height: 10px;
+    background-color: #ddd;
+    margin-top: 5px;
+}
+
+#strength-fill {
+    height: 100%;
+    width: 0%;
+    background-color: red;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+   .tab_class {
+    width: 79px;
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background-color: black;
+    color: #ffff;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 15px;
+    
+   }
+   br {
+    clear: both;
+   }
+   .active {
+    background-color: lightblue !important;
+    font-weight: bold;
+   }
+   .tab-content{
+    margin-top: 10px;
+   }
+#cee {
+    height: 500px;
+    width: 500px;
+    background-color: beige;
+}
+#cee:hover {
+    box-shadow:  4px 4px 4px 6px rgb(0, 255, 115);
+    }
+.tab_class:hover {
+    box-shadow:  2px 4px 4px 6px rgba(255, 0, 255, 1);
+    }
+
+ ul {
+    list-style-type: style none;
+    padding: 0;
+    margin: 0;
+ }
+ #formvalidation {
+    height: 700px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: lightsalmon;
+    color: purple;
+ }
+ body {
+    background-color: lightgray;
+ }
+ .hai:hover {
+    box-shadow:  2px 4px 4px 6px rgba(255, 255, 255, 1);
+    }
+    .hello:hover {
+        box-shadow: 2px 4px 4px 6px rgba(0, 0, 255, 1);
+        }
+        h2:hover {
+            
+                box-shadow:  2px 4px 4px 6px rgb(111, 0, 255);
+            
+        }
+        h2 {
+            height: 30px;
+            width: 300px;
+            color: lightsalmon;
+            font-style: italic;
+        }
+        .srcol:hover {
+            box-shadow:  2px 4px 4px 6px rgba(255, 0, 255, 1);
+            }
+            #formvalidation:hover {
+                box-shadow:  2px 4px 4px 6px rgba(255, 255, 255, 1);
+                }
+#cn {
+    height: 575px;
+    width: 600px;
+    border: 2px dotted rgb(66, 20, 219);
+    background-color: bisque;
+}
+#cn:hover {
+            
+    box-shadow:  2px 4px 4px 6px rgb(170, 11, 11);
+
+}

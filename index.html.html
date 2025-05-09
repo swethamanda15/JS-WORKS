@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="swe.css">
+</head>
+<center>
+<body>
+    
+    <h2>Display Method</h2>
+    <div>
+    <button onclick="getalert();">Click</button>
+</div>
+<hr>
+<h2>Display Method Continued</h2>
+
+<div>
+    <button id="" onclick="getalert1()">Click Me</button>
+    <span id="result">Result Here</span>
+</div>
+<hr>
+<h2>Calculation</h2>
+
+<div class="hai">
+    <label for="num1">enter numebr1</label>
+    <input type="text" id="num1"><br><br>
+
+    <label for="num2">enter number2</label>
+    <input type="text" id="num2"><br><br>
+
+    <button onclick="calculate()">calculate</button><br><br><br>
+
+    <div id="result_add"></div>
+    <div id="result_mul"></div>
+    <div id="result_sub"></div>
+</div>
+<hr>
+<h2>Deleting Row</h2>
+
+ <div class="hello">
+    <table border="1">
+        <tr>
+            <th>NAME</th>
+            <th>PHONE NO</th>
+            <TH>email id</TH>
+            <th>ACTION</th>
+        </tr>
+        <tr id="row1">
+            <td>venky</td>
+            <td>1234567890</td>
+            <td>venky@gmail.com</td>
+            <td><p id="id1" onclick="return hid('row1')" style="background-color: brown;">Delete</p></td>
+        </tr>
+        <tr id="row2">
+            <td>swetha</td>
+            <td>1234523890</td>
+            <td>swetha@gmail.com</td>
+            <td><p id=" id2"onclick="return hid('row2')"  style="background-color: brown;">Delete</p></td>
+        </tr>
+    </table>
+</div> 
+<hr>
+<h2>Zoom In and Zoom Out</h2>
+
+<div onmouseover="get_big_image();" onmouseleave="get_normal_image();">
+    <img src="chiro.jpeg" width="200px" height="300px" id="img_id">
+    </div>
+    <hr>
+    <h2>Word Count</h2>
+
+    <div class="chiro">
+        <p>Get complete details about text</p>
+        <textarea id="get_word_count" onkeyup="get_word_count()" ></textarea><br><br>
+        <p class="text">Text Count</p>
+        <p class="result" id="result_here"></p><br>
+        <p class="text">Word Count</p>
+        <p class="result" id="result_here_word"></p><br>
+        <p class="text">Captial Letter</p>
+        <p class="result" id="result_here_cap"></p><br>
+        <p class="text">Lower Letter</p>
+        <p class="result" id="result_here_low"></p>
+    </div>
+    <hr>
+    <h2>Scrolling Image</h2>
+
+    <div class="srcol">
+        <marquee id="scroller" onmouseover="return_get_stop();" onmouseleave="return_get_start();"width="500px" height="500px"
+        style= "border: 1px solid pink;">
+        <img src="chiro.jpeg" >
+        <img src="family.jpg" style="height: 300px; width: 300px;"> 
+        <img src="dore.jpg" style="height: 300px;" width="300px">
+        <img src="poke.jpg" style="height: 300px;" width="300px">
+        
+        </marquee>
+      
+    </div>
+   
+<hr>
+<h2>PopUp Window</h2>
+
+<div>
+    <a  class="url" onclick="newwindow()">Get Popup</a>
+</div>
+<hr>
+<h2>BirthDay Announcement</h2>
+
+<div class="birthday">
+    <div id="chang_color_id">
+        Birth Day Name:
+    </div><br><br>
+    <button id="Click me" onclick="get_date_details();">Date Details</button>
+</div>
+
+<hr>
+<h2>Progress Bar</h2>
+
+<div>
+    <form action="">
+        <div class="contain">
+            <label for="paw"><b>Password</b></label>
+            <input type="password" id="paw" placeholder="Enter Password" onkeyup="checkStrength();" required>
+        </div>
+    </form>
+    <div id="strength-bar">
+        <div id="strength-fill"></div>
+    </div>
+    <p id="result"></p>
+</div>
+<hr>
+<h2>Tabs</h2>
+
+<div id="cee">
+<div>
+    <span onclick="return show(this.id);" id="tab1" class="tab_class" >Shinchan</span>
+    <span onclick="return show(this.id);" id="tab2" class="tab_class">Doremon</span>
+    <span onclick="return show(this.id);" id="tab3" class="tab_class">Pokemon</span>
+    
+    <div id="tab1_result" class="tab_content">
+        Shinchan <br><br>
+        The "real story" of Shin-chan, or Crayon Shin-chan, is that it's a fictional story created by manga artist Yoshito Usui. The character Shinnosuke Nohara, also known as Shin-chan, is not based on a real person, and the events depicted in the series are not real-life occurrences. Crayon Shin-chan is a popular Japanese manga and anime series that follows the adventures of Shin-chan and his family and friends in the fictional town of Kasukabe, Saitama Prefecture.
+        <br> <br><br>
+        <img src="chiro.jpeg" style="height: 200px;" width="300px">
+    
+    </div>
+    <div id="tab2_result" class="tab_content" style="display: none;">
+    Doremon <br><br>
+    Doraemon is a fictional character and the title character of the manga and anime eponymous series of the same name created by Fujiko Fujio. Doraemon is a male robotic cat that travels back in time from the 22nd century to aid a preteen boy named Nobita Nobi.
+    <br><br><br>
+    <img src="dore.jpg" style="height: 300px;" width="300px;">
+
+    </div>
+    <div id="tab3_result" class="tab_content" style="display: none;">
+    Pokemon <br><br>
+   
+    The Pokémon Company, simply known as Pokémon is a Japanese company responsible for brand management, production, publishing, marketing, and licensing of the Pokémon franchise, which consists of video 
+    <br><br><br>
+    <img src="poke.jpg" height="300px" width="300px">
+    </div> 
+</div>
+</div>
+
+
+<hr>
+<h2>Form Validation</h2>
+
+<div id="formvalidation">
+    
+    <form method="post" enctype="multipart/form-data" action="">
+        <br>
+        <br>
+        <div style="height: 20px; width: 300px; border: 1px solid red; color: blueviolet;"><b>STUDENT DETAILS</b></div> 
+        <br><br>
+        <ul>
+            <li><label for="fname" class="required">Candicate Name</label>
+              <input type="text" onblur="return validate1()" required="" name="pr_name" id="pr_name" value="" class="text jsid_3">
+              <span style="color: red;" id="pr_name_result"></span></li>
+                <br><br>
+             <li><label for="iname" class="required">Candicate Photo</label>
+            <input type="file" onblur="validate1()" required="" name="pr_img" value=""
+            id="pr_img" class="text jsid_4">
+             <span style="color: red;" id="pr_img_result"></span>
+             </li>
+             <br><br>
+
+            <li><label for="email" class="required">Number</label>
+            <input type="text" onblur="validate1()" required="" name="pr_cost" id="pr_cost" value="" class="text jsid_5">
+            <span style="color: red;" id="pr_cost_result"></span>
+            </li>
+            <br><br>
+
+            <li><label for="email" class="required">Email</label>
+            <input type="email" onblur="validate1()" required=""
+            name="pr_email" id="pr_email" value="" class="text jsid_5">
+            <span style="color: red;" id="pr_email_result"></span>
+            </li>
+            <br><br>
+
+            <li><label for="email" class="required">Gender</label>
+            <input type="radio" id="male" onclick="validate1()" value="male" name="gender">Male
+            </li>
+            <input type="radio" id="female" onclick="validate1()" value="female" name="gender">Female
+
+            <span style="color: red;" id="male_result"></span>
+            <br><br>
+            Languages:
+            <br><br>
+        Telugu<input type="checkbox" name="lang" onclick="validate1()"
+    id="tel" value="telugu"><br>
+         English:<input type="checkbox" name="lang" onclick="validate1()"
+            id="eng" value="English"><br>
+         Hindi<input type="checkbox" name="lang" onclick="validate1()"
+    id="hin" value="Hindi">
+    <br><br>
+    Select Area
+    <select name="area" onchange="validate1()" id="area">
+        <option value="">Select Area</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Vizag">Vizag</option>
+        <option value="Pune">Pune</option>
+</select><span style="color: red;" id="area_result"></span>
+<br><br><br>
+    <li class="submit">
+        <input type="submit" class="i-btn" onclick="return validate();" name="pr_sub_btn" id="pr_sub_btn" value="AddDetails">
+
+    <span style="color: red;"> <?php if(isset($_POST['pr_sub_btn'])){ echo $errorMessage; } ?>
+        {
+        echo$errorMessage;}?></span>
+        <div class="clear"></div>
+        </ul>
+        <div class="clear"></div>
+
+    </form>
+
+</div>
+<hr>
+<h2>Slide Show</h2>
+<div id="cn">
+    <div class="content">
+        <div class="container">
+            <br>
+          <img class="slidername" src="shinchan.jpg" alt="1">
+            <img class="slidername"  src="shiro.jpg" alt="2">
+            <img class="slidername"  src="himawari.jpg" alt="3" style="height: 400px; width: 200px;">
+            <img class="slidername"  src="nikki.jpg" alt="4" style="height: 400px; width: 300px;">
+            <img class="slidername"  src="nohara.jpg" alt="5">
+            <img class="slidername"  src="family.jpg" alt="6" style="height: 400px; width: 500px;">
+            <br>
+            <p>
+            <pre>
+    <button onclick="next(-1)" class="btn prev">Prev</button>                                   <button onclick="next(1)" class="btn next">Next</button>
+            </pre>
+            </p>
+        </div>
+    </div>
+</div>
+<hr>
+<h2>Dynamically Adding Row</h2>
+<div class="parent">
+    <label for="inp" id="name">Name:</label>
+    <input type="text" id="inp" style="width: 300px; cursor: pointer;"><BR>
+   <br>
+   <br>
+        <button id="btn-9">Add New Row</button>
+
+ </div>
+ 
+   
+ <script src="swe.js"></script>
+    </body>
+</center>
+    </html>
